@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="Apache Forrest" name="Generator">
+<meta name="Forrest-version" content="0.7">
+<meta name="Forrest-skin-name" content="pelt">
+<title>Beispiele SpringSource dm Server</title>
+<link type="text/css" href="../skin/basic.css" rel="stylesheet">
+<link media="screen" type="text/css" href="../skin/screen.css" rel="stylesheet">
+<link media="print" type="text/css" href="../skin/print.css" rel="stylesheet">
+<link type="text/css" href="../skin/profile.css" rel="stylesheet">
+<script src="../skin/getBlank.js" language="javascript" type="text/javascript"></script><script src="../skin/getMenu.js" language="javascript" type="text/javascript"></script><script src="../skin/fontsize.js" language="javascript" type="text/javascript"></script>
+<link rel="shortcut icon" href="../">
+</head>
+<body onload="init()">
+<script type="text/javascript">ndeSetTextSize();</script>
+<div id="top">
+<div class="breadtrail">
+<a href="http://www.spring-buch.de/">Spring-Buch</a><script src="../skin/breadcrumbs.js" language="JavaScript" type="text/javascript"></script>
+</div>
+<div class="header">
+<div class="grouplogo">
+<a href=""></a>
+</div>
+<div class="projectlogo">
+<a href="http://www.spring-buch.de/"><img class="logoImage" alt="Spring-Buch" src="../images/project-logo.gif" title="Spring-Buch"></a>
+</div>
+<div class="searchbox">
+<form action="http://www.google.com/search" method="get" class="roundtopsmall">
+<input value="www.spring-buch.de" name="sitesearch" type="hidden"><input onFocus="getBlank (this, 'Search the site with google');" size="25" name="q" id="query" type="text" value="Search the site with google">&nbsp; 
+                    <input attr="value" name="Search" value="Search" type="submit">
+</form>
+</div>
+<ul id="tabs">
+<li>
+<a class="base-not-selected" href="../index.html">Home</a>
+</li>
+<li>
+<a class="base-not-selected" href="../Klappentext/index.html">Klappentext</a>
+</li>
+<li>
+<a class="base-not-selected" href="../Autorinfo/index.html">Autor</a>
+</li>
+<li>
+<a class="base-not-selected" href="../Beispiele/index.html">Beispiele</a>
+</li>
+<li>
+<a class="base-not-selected" href="../Leseproben/index.html">Leseproben</a>
+</li>
+<li>
+<a class="base-not-selected" href="../Errata/index.html">Errata</a>
+</li>
+<li>
+<a class="base-not-selected" href="../Kaufen/index.html">Kaufen</a>
+</li>
+<li>
+<a class="base-not-selected" href="../Links/index.html">Links</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="main">
+<div id="publishedStrip">
+<div id="level2tabs"></div>
+<script type="text/javascript"><!--
+document.write("<text>Last Published:</text> " + document.lastModified);
+//  --></script>
+</div>
+<div class="breadtrail">
+             
+             &nbsp;
+           </div>
+<div id="content">
+<h1>Beispiele SpringSource dm Server</h1>
+	  
+<a name="N1000C"></a><a name="Installation"></a>
+<h2 class="boxed">Installation der SpringSource dm Server Beispiel</h2>
+<div class="section">
+<p>
+	      Die Beispiele f&uuml;r den dm Server
+	      stehen <a href="SpringDmServer.zip">hier</a> zum
+	      Download zur Verf&uuml;gung. Das Petclininc-Beispiel finden
+	      Sie beim <a href="http://www.springsource.org/dmserver">SpringSource dm Server Download</a>. Als
+	      Entwicklungsumgebung sollten Sie
+	      die <a href="http://www.springsource.com/products/sts">SpringSource
+	      Tool Suite</a> nutzen, die kostenlos verf&uuml;gbar ist.
+	    </p>
+<p>
+	      Nun sollten Sie den SpringSource dm Server installieren:
+	    </p>
+<ul>
+	      
+<li>
+		Laden Sie den SpringSource dm Server 1.0
+		von <a href="http://springsource.org/dmserver">http://springsource.org/dmserver</a>
+		herunter und entpacken Sie ihn auf Ihre Festplatte.
+	      </li>
+	      
+<li>
+		Starten Sie die SpringSource ToolSuite mit einem
+		leeren Workspace.
+	      </li>
+	      
+<li>
+		W&auml;hlen Sie Windows-&gt;Show View-&gt;Other...
+	      </li>
+	      
+<li>
+		In dem nun erscheinenden Dialog "Show View" w&auml;hlen Sie
+		aus dem Server-Bereich die View Servers.
+	      </li>
+	      
+<li>
+		In der nun erschienenden Servers-View klicken Sie mit
+		der rechten Maustaste und w&auml;hlen New-&gt;Server
+		</li>
+	      
+<li>
+		W&auml;hlen Sie in dem nun erscheinden "New Server" dialog
+		unter SpringSource den "SpringSource dm Server 1.0"
+		aus und klicken Sie auf Next.
+	      </li>
+	      
+<li>
+		W&auml;hlen Sie nun den Pfad, unter dem Sie den dm Server
+		entpackt haben, mit Browse... aus.
+	      </li>
+	      
+<li>
+		W&auml;hlen Sie Finish.
+	      </li>
+	    
+</ul>
+<p>
+	      Sie m&uuml;ssen nun in den SpringSource dm Server noch einige
+	      Bibliotheken installieren:
+	    </p>
+<ul>
+	      
+<li>
+	      Doppelklicken Sie auf den SpringSource dm Server v1.0 im
+	      Servers-View.
+	      </li>
+	      
+<li>
+		W&auml;hlen Sie in der neu erschienden View das Repository Tab.
+	      </li>
+	      
+<li>
+		Dort k&ouml;nnen Sie nun das Repository
+		durchsuchen. Folgende Bibliotheken m&uuml;ssen Sie
+		installieren:
+		<ul>
+		  
+<li>
+		    com.springsource.org.apache.commons.dbcp (1.2.2.osgi)
+		  </li>
+		  
+<li>
+		    com.springsource.org.apache.commons.pool (1.4.0)
+		  </li>
+		  
+<li>
+		    com.springsource.org.eclipse.persistence (1.0.0)
+		  </li>
+		  
+<li>
+		    com.springsource.org.eclipse.persistence.jpa (1.0.0)
+		  </li>
+		  
+<li>
+		    com.springsource.org.eclipse.persistence.asm (1.0.0)
+		  </li>
+		  
+<li>
+		    com.springsource.org.eclipse.persistence.antlr (1.0.0)
+		  </li>
+		  
+<li>
+		    com.springsource.org.hsqldb (1.8.0.9)
+		  </li>
+		
+</ul>
+	      
+</li>
+	    
+</ul>
+<p>Um die Anwendungen zu installieren, m&uuml;ssen sie
+	    folgendes tun:</p>
+<ul>
+	      
+<li>
+		W&auml;hlen Sie File-&gt;Import...
+	      </li>
+	      
+<li>
+		In dem nun erscheinenden Import-Dialog w&auml;hlen Sie
+		unter General "Existing Projects into Workspace"
+	      </li>
+	      
+<li>
+		In dem Dialog-Fenster w&auml;hlen Sie "Select Archive
+		File" und dann mit Browse... die
+		heruntergeladenen ZIP-Datei.
+	      </li>
+	      
+<li>
+		W&auml;hlen Sie Finish
+	      </li>
+	    
+</ul>
+<p>
+	      Die Projekte sind nun in Ihrem Workspace und sie k&ouml;nnen
+	      Sie auf dem dm Server installieren und in den Code schauen.
+	    </p>
+<p>
+	      Beispielsweise k&ouml;nnen Sie nun das Projekt
+	      "de.spring_buch" auf den Server ziehen und dann den
+	      Server mit einem rechten Mausklick starten.
+	    </p>
+<p>
+	      Anschlie&szlig;end steht die Anwendung
+	      unter <a href="http://localhost:8080/spring-buch">http://localhost:8080/spring-buch</a>
+	      zur Verf&uuml;gung.
+	    </p>
+</div>
+	
+</div>
+<div class="clearboth">&nbsp;</div>
+</div>
+<div id="footer">
+<div class="lastmodified">
+<script type="text/javascript"><!--
+document.write("<text>Last Published:</text> " + document.lastModified);
+//  --></script>
+</div>
+<div class="copyright">
+        Copyright &copy;
+         2006-2011 Eberhard Wolff</div>
+<div id="feedback">
+		Feedback an:
+	<a id="feedbackto" href="mailto:info@spring-buch.de?subject=Feedback%C2%A0Beispiele/readme.html">info@spring-buch-de</a>
+</div>
+</div>
+</body>
+</html>
